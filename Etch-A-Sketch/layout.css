@@ -1,0 +1,20 @@
+#button_wrapper{
+    text-align:center;
+}
+
+#grid{
+    width: 50%:
+    margin: 0 auto;
+    text-align:center;
+}
+
+.blocks {
+    background-color: #4C6471;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    display: inline-block;
+}
+.row{
+    margin-bottom: -4px; 
+}
