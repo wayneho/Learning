@@ -2,7 +2,7 @@ def bubble_sort(buf)
     n = buf.length-1
     while n > 0
         swap = false
-        for i in 0..n-1
+        for i in 0...n
             if(buf[i] > buf[i+1])
                 temp = buf[i+1]
                 buf[i+1] = buf[i]
@@ -23,7 +23,7 @@ def bubble_sort_by(buf)
     n = buf.length-1
     while n > 0
         swap = false
-        for i in 0..n-1
+        for i in 0...n
             if(yield(buf[i],buf[i+1]) > 0)
                 temp = buf[i+1]
                 buf[i+1] = buf[i]
